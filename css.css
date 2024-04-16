@@ -1,0 +1,55 @@
+:root {
+   --black: #131921;
+   --orange: #F3A847;
+}
+
+#fs {
+   background-color: var(--black);
+
+}
+
+#sn {
+   background-color: #232F3E;
+}
+
+
+ul li .search {
+   width: 500px;
+}
+
+#basic-addon2 {
+   background-color: var(--orange)
+}
+
+.navbar-toggler {
+   color: #fff;
+   border-color: #fff;
+}
+
+.navbar-toggler:focus {
+   box-shadow: none;
+
+}
+
+
+body {
+   background-color: #E3E6E6;
+   box-sizing: border-box;
+
+}
+
+#card1 {
+   top: -115px;
+   position: relative !important;}
+
+#card1 a{
+   text-decoration: none;
+   display: flex;
+   
+}
+.footer{
+   background-color: var(--black);
+}
+.footerrow{
+   background-color: #232F3E;
+}

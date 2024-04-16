@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/all.min.css">
+    <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="css2.css">
+</head>
+
+<body>
+    <div class="box d-flex justify-content-center align-items-center ">
+        <div>
+            <div class="text-center mt-3">
+                <a href="home.html"><img src="imgs/logo2.png" alt=""></a>
+
+            </div>
+            <form action="" class="border border-2 rounded-1 py-3 px-4 ">
+
+                <h2>Creat account</h2>
+                <div class="mb-3">
+                    <label for="name"> <b>your name</b></label> <br>
+                    <input id="name" type="text" placeholder="First amd last name" class="rounded-1 w-100"><br>
+                    <div id="name-error" class="text-danger"></div>
+
+                </div>
+
+                <div class="mb-3">
+                    <label for="mop-mail"><b>Email or mobile phone number</b></label><br>
+                    <input id="mop-mail" type="text" class=" w-100 rounded-1"> <br>
+                    <div id="mail-error" class="text-danger"></div>
+                </div>
+
+
+                <div class="mb-3">
+
+                    <label for="" Password> <b>Password</b></label><br>
+                    <input id="password" type="password" placeholder=" At least 8 charcters" class=" w-100 rounded-1"><br>
+                    <div id="passerr" class="text-danger"></div>
+                </div>
+                <div class="mb-3">
+
+                    <label for="repass"> <b>Re-enter password</b></label><br>
+                    <input type="password" id="repass" class=" w-100 rounded-1"> <br>
+                    <div id="repasserr" class="text-danger"></div>
+
+                </div>
+                <button id="btnss" class="mb-3 w-75 d-flex mx-auto justify-content-center rounded-2"> Continue </button><br>
+
+                By creating an account, you agree to Amazon's <br> <a href="#">Conditionsof Use</a> and <a
+                    href="#">Privacy Notice.</a>
+
+            </form>
+            <div class="shadow-sm  p-3 mb-5 bg-body-tertiary">
+                <div>Already have an account? <a href="login.html">Sign in</a></div>
+                <div>Buying for work? <a href="#"> Create a free business account</a></div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="container-fluid shadow-sm p-3 mb-0 bg-body-tertiary d-flex justify-content-center "> <a class="mx-4">
+            Conditions of Use</a> <a class="mx-4"> Privacy Notice </a> <a class="mx-4">Help </a> </div>
+
+
+
+
+
+    <!-- script -->
+    <script src="bootstrap-5.3.2-dist/js/all.min.js"></script>
+    <script src="bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="signup.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>

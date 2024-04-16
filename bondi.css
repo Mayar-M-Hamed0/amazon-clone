@@ -1,0 +1,99 @@
+:root {
+    --dark-color: #19283F;
+    --green-color: #33D1CC;
+    --red:#FF3150;
+    --yellow:#FFC400;
+    --section:#EFF7FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: var(--dark-color);
+}
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+
+.navbar .navbar-nav .nav-link:focus,
+.navbar .navbar-nav .nav-link:hover {
+    color: var(--green-color);
+}
+.navbar .navbar-nav .nav-link.active{
+    color: #33D1CC;
+}
+.navbar .search svg {
+    color: var(--green-color);
+    font-size: 1.3rem;
+}
+.navbar .navbar-toggler{
+    color: #fff;
+    border-color: #fff;
+    }
+    .navbar .navbar-toggler:focus{
+        box-shadow: none;
+    }
+.landing{
+    background-color: var(--dark-color);
+    min-height: calc(100vh - 85.44px);
+}
+.main-title::before{
+    content: '';
+ position: absolute;
+ bottom: -6px;
+ width: 120px;
+ height: 5px;
+ background-color: #33D1CC;
+ left: 50%;
+ transform: translateX(-50%);
+
+}
+.main-btn{
+background-color:var(--red) ;
+color: #FFC400;
+}
+.main-btn:hover{
+background-color:var(--red) ;
+color: #FFC400;
+}
+
+.feat .icon-holder{
+   
+    height: 200px;
+}
+.feat .icon-holder svg{
+
+    left: 50%;
+       transform: translateX(-50%);
+}
+.feat .icon-holder .number{
+    font-size: 15rem;
+    color: var(--section);
+}
+.feat .icon-holder .icon{
+    color: var(--green-color);
+}
+.feat h3{
+    color: var(--yellow);
+}
+
+
+/* ourwok start */
+.our-work{
+    background-color: #EFF7FA;
+}
+.our-work ul li{
+cursor: pointer;
+}
+.our-work ul li:not(.active):hover{
+    color: #FF3150;
+}
+.our-work ul li.active{
+    background-color: var(--red);
+    color: var(--yellow);
+}
+/* ourwok end */
